@@ -1,7 +1,7 @@
 import { format, register } from 'timeago.js';
-import KoLcoale from 'timeago.js/lib/lang/ko';
+import koLocale from 'timeago.js/lib/lang/ko';
 
-register('ko', KoLcoale);
+register('ko', koLocale);
 
 export function formatAgo(date, lang = 'en_US') {
   return format(date, lang);
